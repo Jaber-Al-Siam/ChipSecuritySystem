@@ -13,6 +13,7 @@ namespace ChipSecuritySystem
             var colorChips = new List<ColorChip>();
             string line;
 
+            // Use Ctrl+Z (Windows) or Ctrl+D (Linux/Mac) to signal the end of input
             while ((line = Console.ReadLine()) != null)
             {
                 // Process the line
